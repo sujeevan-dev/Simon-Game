@@ -1,0 +1,154 @@
+body {
+	background: #2b353a;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.simonBoard {
+	margin: 0 auto;
+	margin-top: 22px;
+	width: 600px;
+	height: 600px;
+	border: 5px solid #000;
+	border-radius: 25px;
+}
+
+.pad {
+	margin: 0;
+	float: left;
+	position: relative;
+	width: 294px;
+	height: 294px;
+	border: 3px solid #000;
+	z-index: 0;
+	cursor: pointer;
+}
+.green {
+	background: #008000;
+	border-radius: 20px 0 0 0;
+}
+
+.green-active {
+	background: #009688 !important;
+}
+
+.red {
+	background: #ff0000;
+	border-radius: 0 20px 0 0;
+}
+
+.red-active {
+	background: #e91e63 !important;
+}
+
+.yellow {
+	background: #ffff00;
+	border-radius: 0 0 0 20px;
+}
+
+.yellow-active {
+	background: #ffc107 !important;
+}
+
+.blue {
+	background: #0000ff;
+	border-radius: 0 0 20px 0;
+}
+
+.blue-active {
+	background: #3f51b5 !important;
+}
+
+
+.controls {
+	margin-left: 160px;
+	margin-top: 160px;
+	width: 245px;
+	height: 245px;
+	background: #fff;
+	border: 10px solid #000;
+	border-radius: 150px;
+	position: absolute;
+	z-index: 1;
+}
+
+.title {
+	margin-top: 30px;
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.inline {
+	display: inline-block;
+	vertical-align: middle;
+  	cursor: pointer;
+}
+
+.display {
+	border: 2px solid #000;
+	border-radius: 10px;
+	color: #fff;
+	width: 60px;
+	height: 45px;
+	font-size: 40px;
+	background: #342626;
+}
+
+.start, .strict {
+	margin: 0 0 0 20px;
+	text-align: center;
+	width: 55px;
+	height: 55px;
+	border: 2px solid #000;
+	border-radius: 30px;
+	color: #000;
+	font-size: 14px;
+	line-height: 55px;
+	font-weight: bold;
+}
+
+.start {
+	background: #ff0000;
+}
+
+.start:hover {
+	background: #8b0000;
+}
+
+.strict {
+	background: #ffff00;
+}
+
+.strict:hover {
+	background: #ffc107;
+}
+
+.switch-container {
+	margin-top: 10px;
+}
+
+.outter-switch {
+	width: 60px;
+	height: 25px;
+	border: 2px solid #000;
+	background: #000;
+}
+
+.outter-active {
+  background-color: #808080 !important;
+}
+
+.inner-switch {
+	width: 30px;
+	height: 25px;
+	background: #808080;
+	position: relative !important;
+}
+
+.inner-inactive {
+  background-color: #000 !important;
+}
